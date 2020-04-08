@@ -17,7 +17,7 @@ namespace ticketSupport
                 new Department("Information Security")
             };
             #endregion
-
+            // first comment
             #region employee
             List<Employee> employees = new List<Employee>()
             {
@@ -86,7 +86,7 @@ namespace ticketSupport
 
             SupportTicket ticket2 = new SupportTicket("Bug In InfoSec", employees[1], attachments, departments[2]);
             #region sort
-            SupportTicket ticket3 = new SupportTicket("Bug In InfoSec", employees[1], null, departments[2]);
+            SupportTicket ticket3 = new SupportTicket("Bug In Info", employees[1], null, departments[2]);
             SupportTicket ticket4 = new SupportTicket("Bug In InfoSec", employees[1], null, departments[2]);
             SupportTicket ticket5 = new SupportTicket("Bug In InfoSec", employees[1], null, departments[2]);
             SupportTicket ticket6 = new SupportTicket("Bug In InfoSec", employees[1], null, departments[2]);
